@@ -59,33 +59,67 @@ a:hover {
 
 
 /*-------------- Navigation --------------*/
+.nav {
+    height: 80px;
+}
+
 .nav a {
     color: #404040;
-    min-height: 60px;
 }
 .nav ul {
-    position: absolute;
-    top: 20px;
-    right: 25px;
+    display: inline-block;
     vertical-align: middle;
+    position: absolute;
+    top: 12px;
+    right: 25px;
 }
 .nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 5px;
+    vertical-align: middle;
 }
 .nav #apps  {
     background:url(appsicon.png) no-repeat;
+    opacity: 0.5;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
     color: rgba(0,0,0,0);
 }
 .nav #notifications {
     background:url(bellicon.png) no-repeat;
+    opacity: 0.5;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
     color: rgba(0,0,0,0);
+}
+.nav #share {
+    background-color: rgba(0,0,0,0.05);
+    padding: 8px 12px;
+    border-radius: 3px;
 }
 .nav #googleplus {
     background:url(avatar.png) no-repeat;
+    background-size: 30px auto;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     color: rgba(0,0,0,0);
+    border-radius: 3px;
 }
-
+.nav #apps:hover, #notifications:hover {
+    opacity: 0.8;
+}
+.nav #share:hover {
+    background-color: rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+.nav #googleplus:hover {
+    -webkit-box-shadow: inset .5px -1px 0px .4px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset .5px -1px 0px .4px   rgba(0,0,0,0.3);
+    box-shadow: inset .5px -1px 0px .4px  rgba(0,0,0,0.3);
+}
 
 /*-------------- Search --------------*/
 img.logo {
@@ -113,22 +147,24 @@ input {
 .search:focus {
     border: 1px solid #3369e8;
 }
+.submit {
+    text-align: center;
+}
 .button {
     display: inline;
-    margin: 0px auto;
+    margin: 15px 7px;
     background-color: #f2f2f2;
     border: 1px solid  #ccc;
     border-radius: 3px;
     font: bold .85em Arial, sans-serif;
     color: #4c4c4c;
-    padding: 10px;
+    padding: 8px;
     width: auto;
-    text-align: center;
 }
 .button:hover {
-    -webkit-box-shadow: 0 .5px 1px .5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0 .5px 1px .5px rgba(0,0,0,0.5);
-    box-shadow:  0 .5px 1px .5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: .5px 1px 0px .4px rgba(0,0,0,0.3);
+    -moz-box-shadow: .5px 1px 0px .4px   rgba(0,0,0,0.3);
+    box-shadow:  .5px 1px 0px .4px  rgba(0,0,0,0.3);
 }
 
 
