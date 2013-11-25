@@ -74,15 +74,15 @@ a:hover {
     margin: 5px;
 }
 .nav #apps  {
-    background:url(http://dl.dropbox.com/s/paysnplmi1ejnv6/appsicon.png) no-repeat;
+    background:url(appsicon.png) no-repeat;
     color: rgba(0,0,0,0);
 }
 .nav #notifications {
-    background:url(http://dl.dropbox.com/s/6eqave7lgeki98t/bellicon.png) no-repeat;
+    background:url(bellicon.png) no-repeat;
     color: rgba(0,0,0,0);
 }
 .nav #googleplus {
-    background:url(http://dl.dropbox.com/s/nq320akuc5nj3wc/avatar.png) no-repeat;
+    background:url(avatar.png) no-repeat;
     color: rgba(0,0,0,0);
 }
 
