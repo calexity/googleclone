@@ -1,0 +1,163 @@
+/*-------------- CSS Reset --------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      text-decoration: none;  
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote: before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+   border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*-------------- Begin Custom Styles --------------*/
+body {
+    font: .8em Arial, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*-------------- Navigation --------------*/
+.nav a {
+    color: #404040;
+    min-height: 60px;
+}
+.nav ul {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    vertical-align: middle;
+}
+.nav ul li {
+    display: inline;
+    margin: 5px;
+}
+.nav #apps  {
+    background:url(http://dl.dropbox.com/s/paysnplmi1ejnv6/appsicon.png) no-repeat;
+    color: rgba(0,0,0,0);
+}
+.nav #notifications {
+    background:url(http://dl.dropbox.com/s/6eqave7lgeki98t/bellicon.png) no-repeat;
+    color: rgba(0,0,0,0);
+}
+.nav #googleplus {
+    background:url(http://dl.dropbox.com/s/nq320akuc5nj3wc/avatar.png) no-repeat;
+    color: rgba(0,0,0,0);
+}
+
+
+/*-------------- Search --------------*/
+img.logo {
+    display: block;
+    margin: 190px auto 30px auto;
+    width: 25%;
+}
+input {
+   outline: none;
+}
+.search {
+    display: block;
+    margin: 0px auto;
+    font-size: 1.25em;
+    padding: 2px 10px;
+    width: 550px;
+    height: 24px;
+    border: 1px solid #ccc;
+    background: url("http://blog.garanimals.com/wp-content/uploads/2013/06/microphone-icon.jpg") no-repeat right;
+    background-size: 17px 17px;
+}
+.search:hover {
+    border: 1px solid #B2B2B2;
+}
+.search:focus {
+    border: 1px solid #3369e8;
+}
+.button {
+    display: inline;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+    border: 1px solid  #ccc;
+    border-radius: 3px;
+    font: bold .85em Arial, sans-serif;
+    color: #4c4c4c;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+}
+.button:hover {
+    -webkit-box-shadow: 0 .5px 1px .5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 .5px 1px .5px rgba(0,0,0,0.5);
+    box-shadow:  0 .5px 1px .5px rgba(0,0,0,0.5);
+}
+
+
+/*-------------- Footer --------------*/
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+}
+.footer a {
+    color: #666;
+}
+.footer ul {
+    margin: 15px 15px;
+}
+.footer li {
+    display: inline;
+    padding: 10px 15px;
+    color: #666;
+}
+.footer-left {
+    float: left;
+}
+.footer-right {
+    float: right;
+}
+.footer span {
+    color: #8F2400;
+}
